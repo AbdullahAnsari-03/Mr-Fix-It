@@ -17,24 +17,30 @@
 
 ## 🏗️ Project Structure
 
+## 📁 Project Structure
+
 ```bash
 lib/
-├── main.dart
-├── database_helper.dart
+├── main.dart                     # App entry point
+├── database_helper.dart          # SQLite DB operations
 └── screens/
-    ├── login_screen.dart
-    ├── home_screen.dart
-    ├── booking_screen.dart
-    └── profile_screen.dart
+    ├── splash_screen.dart        # Intro screen shown on app launch
+    ├── login_screen.dart         # User login screen
+    ├── signup_screen.dart        # User registration screen
+    ├── home_screen.dart          # Dashboard after login
+    ├── service_details_screen.dart # Details for a selected service
+    ├── booking_screen.dart       # Service booking UI
+    └── profile_screen.dart       # User info and booking history
+
 ```
-# 🧰 Tech Stack
+## 🧰 Tech Stack
 - Flutter – UI toolkit for building natively compiled apps.
 
 - Dart – Programming language used with Flutter.
 
 - SQLite – Local database for storing user and booking data.
 
-# 🔧 Getting Started
+## 🔧 Getting Started
 Follow these steps to set up and run the project on your local machine:
 
 1. Clone the repository
@@ -55,7 +61,7 @@ Edit
 flutter run
 💡 Make sure you have a connected device or emulator running.
 
-# 📄 .gitignore
+## 📄 .gitignore
 The project includes a .gitignore optimized for Flutter to exclude:
 
 Build files
@@ -66,7 +72,7 @@ Dependency lock files
 
 Sensitive keys/config files
 
-# 🙌 Contributions
+## 🙌 Contributions
 Contributions are welcome!
 If you'd like to help improve the app, feel free to:
 
@@ -76,8 +82,8 @@ Suggest features
 
 Submit pull requests
 
-# 📝 License
+## 📝 License
 This project is licensed under the MIT License.
 
-# ✨ Credits
+## ✨ Credits
 Developed with 💙 by Abdullah Ansari
